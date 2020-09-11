@@ -15,16 +15,21 @@ executes.
 1. logger.h has two functions you can use, `LOG` and `LOGP`.
 
 1. LOG:
-    11. LOG prints a formatted log message.
-    11. Example Usage:
+    1. LOG prints a formatted log message.
+
+    2. Example Usage:
         `LOG("Hello %s, your lucky number is %d\n", "World", 42);`
+
 1. LOGP:
-    11. LOGP prints and unformatted log message (single string).
-    11. Example Usage:
+    1. LOGP prints and unformatted log message (single string).
+    
+    2. Example Usage:
         `LOGP("Hello World!");`
+
 1. How to add to Makefile:
-    11. If you are working with a Makefile and are wondering how you can add 
+    1. If you are working with a Makefile and are wondering how you can add 
         looger.h to your Makefile here is an example Makefile.
+    
     `
         PROGS = lab02
 
