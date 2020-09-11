@@ -30,7 +30,6 @@ executes.
     1. If you are working with a Makefile and are wondering how you can add 
         looger.h to your Makefile here is an example Makefile.
     
-    `
         PROGS = lab02
 
         all : $(PROGS)
@@ -40,7 +39,6 @@ executes.
 
         clean:
             rm -rf $(PROGS) *~
-    `
 
 ## Want to Contribute?
 If you want to add C Logger please make a pull request with the label "improvement"
