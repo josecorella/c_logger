@@ -1,7 +1,7 @@
 # C Logger: Logger file for C Projects
 
 ## Description
-This project is taken from @malensek with his permission to share it with the Open Source Community.
+This project is taken from [malensek](https://github.com/malensek) with his permission to share it with the Open Source Community.
 Unfortunately C doesn't have a native Logger Library and print statements sometimes don't give me the 
 information I want, like the line number or the function I the program is on. 
 
